@@ -108,11 +108,7 @@ eunify/
 
 ### Android Client
 
-```bash
-cd Android-Client
-flutter pub get
-flutter run
-```
+Download the `app-release.apk` from the [Releases](https://github.com/FredrickOdondi/eunify/releases) page and sideload it onto your Android device.
 
 ### Supabase Setup
 
