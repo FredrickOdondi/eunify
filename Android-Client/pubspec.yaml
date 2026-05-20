@@ -1,0 +1,80 @@
+name: eunify_client
+description: Eunify Android Client — Continuity Bridge Receiver
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Supabase Realtime
+  supabase_flutter: ^2.8.4
+
+  # QR Code Scanning
+  mobile_scanner: ^5.2.3
+
+  # Launch URLs in browser
+  url_launcher: ^6.3.1
+
+  # Camera Access for streaming
+  camera: ^0.11.0+2
+
+  # Image processing for frame compression
+  image: ^4.2.0
+
+  # Persistent foreground service (keeps relay alive)
+  flutter_foreground_task: ^8.14.0
+
+  # Camera & notification permissions
+  permission_handler: ^11.3.1
+
+  # State management
+  provider: ^6.1.2
+
+  # Premium typography
+  google_fonts: ^6.2.1
+
+  # Premium icons
+  lucide_icons: ^0.257.0
+
+  # Native Share Sheet target integration
+  receive_sharing_intent: ^1.5.0
+
+  # Local Key-Value Persistence
+  shared_preferences: ^2.2.3
+
+  # Local Heads-Up notifications with audio chime
+  flutter_local_notifications: ^17.1.2
+
+  # Direct WebRTC DataChannel media and chunk transport
+  flutter_webrtc: ^1.4.1
+
+  # Native UI visual file explorer dialog integration
+  file_picker: ^8.0.3
+
+  # Launch files in native system viewers/gallery
+  open_filex: ^4.5.0
+
+
+  # Biometric Authentication (Fingerprint/FaceID)
+  local_auth: ^2.2.0
+
+  # Secure Cryptography for signing unlock challenges
+  cryptography: ^2.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "/Users/fredrickodondi/Desktop/eunify/Screenshot_20260516_091035_Google.jpg"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+flutter:
+  uses-material-design: true

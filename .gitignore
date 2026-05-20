@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+*.profraw
+
+# Flutter SDK / pub cache directories (never commit these)
+flutter_home/
+flutter_config/
+flutter_local/
+
+# Xcode / Swift
+DerivedData/
+DerivedDataRelease/
+build/
+build_release/
+eunify_release/
+eunify_release 2/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.moved-aside
+*.orig
+xcuserdata/
+
+# Build logs
+build_log.txt
+build_output.log
+build_output.txt
+
+# Release zips
+*.zip
+
+# Flutter / Dart
+Android-Client/.dart_tool/
+Android-Client/build/
+Android-Client/.flutter-plugins-dependencies
+Android-Client/pubspec.lock
+Android-Client/.packages
+Android-Client/.flutter-plugins
+
+# Android Gradle build cache
+Android-Client/android/.gradle/
+Android-Client/android/local.properties
+
+# Scratch / test files
+minimal_test.swift
+mock_client.swift
+test_server.swift
+test_supabase.js
+default.profraw
