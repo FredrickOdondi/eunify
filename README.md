@@ -7,6 +7,16 @@
 ![Built with](https://img.shields.io/badge/Swift-SwiftUI-F05138?style=flat-square&logo=swift)
 ![Built with](https://img.shields.io/badge/Flutter-Dart-02569B?style=flat-square&logo=flutter)
 ![Backend](https://img.shields.io/badge/Supabase-Realtime-3ECF8E?style=flat-square&logo=supabase)
+![Release](https://img.shields.io/github/v/release/FredrickOdondi/eunify?style=flat-square&color=brightgreen)
+
+## ⬇️ Download
+
+| Platform | Link |
+|---|---|
+| 🍎 **macOS** (13+) | [Download v1.0.0](https://github.com/FredrickOdondi/eunify/releases/tag/v1.0.0) |
+| 🤖 **Android** | Sideload APK — see [Releases](https://github.com/FredrickOdondi/eunify/releases) |
+
+> **macOS:** Unzip → drag `eunify.app` to Applications → Right-click → **Open** on first launch (Gatekeeper bypass)
 
 ---
 
